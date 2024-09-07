@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    line-height: 1.0;
+    background-color: var(--Slate300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "outfit",sans-serif;
+}
+img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+.heading {
+    max-width: 340px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.hope {
+    font-family: "outfit",sans-serif;
+    margin: 15px;
+    font-size: 19px;
+    color: blue;
+}
+p {
+   color: var(--Slate500);
+   padding: 30px;
+}
+:root {
+    --White:hsl(0, 0%, 100%);
+
+    --Slate300: hsl(212, 45%, 89%);
+    --Slate500: hsl(216, 15%, 48%);
+    --Slate900: hsl(218, 44%, 22%);
+}
